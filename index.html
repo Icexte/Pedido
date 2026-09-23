@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ff4f87">
+  <meta name="description" content="Uma surpresa especial ❤️">
+  <title>Para Moon Stone, com carinho ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <main>
+    <section class="screen active" id="intro">
+      <div class="card">
+        <div class="emoji">💌</div>
+        <p class="eyebrow">MOON STONE, ISSO É PARA VOCÊ</p>
+        <h1>Moon Stone, preparei uma surpresa para você...</h1>
+        <p class="sub">Mas você precisa clicar para descobrir. ❤️</p>
+        <button class="primary" id="startBtn">✨ Quero descobrir</button>
+      </div>
+    </section>
+
+    <section class="screen" id="story">
+      <div class="card">
+        <div class="emoji" id="storyEmoji">🌹</div>
+        <p class="eyebrow">PARA VOCÊ</p>
+        <h2 id="storyText">Desde que você apareceu...</h2>
+        <div class="progress"><span id="progressBar"></span></div>
+        <button class="primary" id="nextBtn">Continuar ❤️</button>
+      </div>
+    </section>
+
+    <section class="screen" id="letter">
+      <div class="card letter-card">
+        <div class="envelope">💌</div>
+        <p class="eyebrow">UMA CARTA</p>
+        <h2>Leia com carinho</h2>
+        <p class="letter">
+          Moon Stone, eu poderia escrever mil coisas, mas talvez nenhuma delas consiga
+          explicar exatamente o que sinto. Só sei que você se tornou alguém
+          muito especial para mim e que cada momento ao seu lado tem um lugar
+          especial no meu coração.
+        </p>
+        <p class="letter">
+          Então resolvi deixar de guardar esse sentimento só para mim...
+        </p>
+        <button class="primary" id="askBtn">Tenho uma pergunta... 💗</button>
+      </div>
+    </section>
+
+    <section class="screen" id="question">
+      <div class="card question-card">
+        <div class="ring">💍</div>
+        <p class="eyebrow">A PERGUNTA</p>
+        <h1>Quer namorar comigo?</h1>
+        <p class="sub">Prometo fazer o possível para transformar nossos momentos em histórias lindas. ❤️</p>
+        <div class="buttons">
+          <button class="yes" id="yesBtn">SIM! ❤️</button>
+          <button class="maybe" id="maybeBtn">Deixa eu pensar... 🥺</button>
+        </div>
+        <p class="tiny">Dica: o segundo botão pode ser difícil de pegar 😏</p>
+      </div>
+    </section>
+
+    <section class="screen" id="success">
+      <div class="card success-card">
+        <div class="big-heart">❤️</div>
+        <p class="eyebrow">EU SABIA! 🥹</p>
+        <h1>Agora é oficial!</h1>
+        <p class="sub">Que esse seja o começo de uma história muito bonita para nós dois. 💕</p>
+        <div id="confetti" aria-hidden="true"></div>
+        <p class="signature">Com todo meu carinho,<br><strong>Ice</strong> ❤️</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
